@@ -60,6 +60,10 @@ resources:
     type: environment
   dns:
     type: dns
+  redis:
+    type: redis
+  elasticsearch:
+    type: elasticsearch
   route:
     type: route
     params:
