@@ -22,6 +22,7 @@ backend:
 integrations:
   github:
     - host: github.com
+      token: "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"
       apps:
         - $include: credentials/github-app-backstage-humanitec-credentials.yaml
 
