@@ -22,8 +22,6 @@ backend:
 integrations:
   github:
     - host: github.com
-      owner: "humanitec-poc"
-      token: "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"
       apps:
         - $include: credentials/github-app-backstage-humanitec-credentials.yaml
 
